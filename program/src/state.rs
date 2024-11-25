@@ -688,7 +688,7 @@ pub struct AmmInfo {
     /// client order id
     pub client_order_id: u64,
     /// padding
-    pub padding2: [u64; 2],
+    pub padding2: u64,
 }
 impl_loadable!(AmmInfo);
 
